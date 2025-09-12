@@ -4,7 +4,7 @@
 
 # 📖 Sobre o Projeto
 
-*Ja aconteceu de anotar algo no caderno ou no bloco de notas e simplesmente esqueceu em qual pagina anotou ou salvou o arquivo? Bom seus problemas acabaram. O Note Saver estar aqui para isso funciona, de uma forma bem simples e intuitiva.*
+*Ja aconteceu de anotar algo no caderno ou no bloco de notas e simplesmente esqueceu em qual pagina anotou ou salvou o arquivo? Bom seus problemas acabaram. O Note Saver estar aqui para isso.
 
 *Sendo feito seguindo as diretrizes do google extensões , utilizando o Minifest V3*
 
