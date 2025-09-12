@@ -24,7 +24,7 @@
 
 # ⚙️ Funcionalidades
 
-*Poder salvar suas anotações a qualquer momento sem precisar abrir nenhum aplicativo exteerno.*
+*Poder salvar suas anotações a qualquer momento sem precisar abrir nenhum aplicativo externo.*
 
 *Interface: Um Icone discreto fica visível no canto da tela, sem atrapalhar a navegação.*
 
