@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Note Saver</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <h1>Note Saver</h1>
+  <textarea id="note" placeholder="Escreva sua nota..."></textarea>
+  <div>
+    <button id="saveNote">Salvar Nota</button>
+    <button id="clearNote">Limpar Nota</button>
+    <button id="showNotes">Minhas Notas</button>
+  </div>
+  <div id="notesContainer" style="display:none; margin-top:10px;">
+    <h3>Notas salvas</h3>
+    <ul id="noteList"></ul>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
