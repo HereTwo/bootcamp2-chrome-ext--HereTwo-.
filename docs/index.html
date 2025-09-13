@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Note Saver - Extensão Chrome</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+  <!-- Header -->
+  <header class="bg-indigo-600 text-white py-6 shadow-md">
+    <div class="max-w-4xl mx-auto px-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold flex items-center gap-2">
+        📝 Note Saver
+      </h1>
+      <a href="note_saver.zip" download class="bg-white text-indigo-600 px-4 py-2 rounded-lg shadow hover:bg-gray-100">
+  Instalar
+</a>
+
+      </a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="max-w-4xl mx-auto px-4 py-12 text-center">
+    <h2 class="text-3xl font-bold mb-4">Salve suas notas rápidas direto no navegador</h2>
+    <p class="text-lg text-gray-600 mb-6">
+      Com o <strong>Note Saver</strong>, você pode anotar ideias e lembretes sem precisar abrir outro app.
+      Suas notas ficam armazenadas no próprio navegador, mesmo depois de fechar o Chrome.
+    </p>
+    <img src="screenshot.png" alt="Exemplo da extensão" class="mx-auto rounded-lg shadow-lg border max-w-md">
+  </section>
+
+  <!-- Funcionalidades -->
+  <section class="bg-white py-12">
+    <div class="max-w-4xl mx-auto px-4">
+      <h3 class="text-2xl font-semibold text-center mb-8">✨ Funcionalidades</h3>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-gray-100 p-6 rounded-lg shadow">
+          <h4 class="font-bold mb-2">📝 Nota rápida</h4>
+          <p>Escreva e salve uma nota instantaneamente no popup da extensão.</p>
+        </div>
+        <div class="bg-gray-100 p-6 rounded-lg shadow">
+          <h4 class="font-bold mb-2">📋 Lista Infinita</h4>
+          <p>Mantenha um histórico organizado com infinitas notas.</p>
+        </div>
+        <div class="bg-gray-100 p-6 rounded-lg shadow">
+          <h4 class="font-bold mb-2">💾 Armazenamento local</h4>
+          <p>As notas ficam salvas no navegador usando <code>chrome.storage.local</code>.</p>
+        </div>
+        <div class="bg-gray-100 p-6 rounded-lg shadow">
+          <h4 class="font-bold mb-2">🧹 Limpar nota</h4>
+          <p>Apague rapidamente o conteúdo atual com apenas um clique.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Instalação -->
+  <section id="instalacao" class="max-w-4xl mx-auto px-4 py-12">
+    <h3 class="text-2xl font-semibold text-center mb-6">⚙️ Como instalar</h3>
+    <ol class="list-decimal list-inside space-y-2 text-gray-700">
+      <li>Baixe o projeto clicando em <strong>Instalar</strong> ou no GitHub.</li>
+      <li>Extraia os arquivos em uma pasta no seu computador.</li>
+      <li>No Chrome, acesse <code>chrome://extensions/</code>.</li>
+      <li>Ative o <strong>Modo do desenvolvedor</strong> no canto superior direito.</li>
+      <li>Clique em <strong>Carregar sem compactação</strong> e selecione a pasta do projeto.</li>
+      <li>Pronto! A extensão aparecerá na barra do navegador.</li>
+    </ol>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-indigo-600 text-white py-6 mt-12">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <p>Feito com ❤️ durante o Bootcamp | Note Saver 2025</p>
+    </div>
+  </footer>
+
+</body>
+</html>
