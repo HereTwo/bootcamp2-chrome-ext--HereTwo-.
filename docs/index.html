@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Note Saver - Extensão Chrome</title>
+  <title>Note Saver - Downloads</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-50 text-gray-800 font-sans">
@@ -14,11 +14,16 @@
       <h1 class="text-2xl font-bold flex items-center gap-2">
         📝 Note Saver
       </h1>
-      <a href="note_saver.zip" download class="bg-white text-indigo-600 px-4 py-2 rounded-lg shadow hover:bg-gray-100">
-  Instalar
-</a>
-
-      </a>
+      <div class="flex gap-3">
+        <a href="downloads/note_saver_extension.zip" download
+           class="bg-white text-indigo-600 px-4 py-2 rounded-lg shadow hover:bg-gray-100 transition">
+          💻 Extensão Chrome
+        </a>
+        <a href="downloads/note_saver_pwa.zip" download
+           class="bg-white text-indigo-600 px-4 py-2 rounded-lg shadow hover:bg-gray-100 transition">
+          📱 PWA Instalável
+        </a>
+      </div>
     </div>
   </header>
 
@@ -61,7 +66,7 @@
   <section id="instalacao" class="max-w-4xl mx-auto px-4 py-12">
     <h3 class="text-2xl font-semibold text-center mb-6">⚙️ Como instalar</h3>
     <ol class="list-decimal list-inside space-y-2 text-gray-700">
-      <li>Baixe o projeto clicando em <strong>Instalar</strong> ou no GitHub.</li>
+      <li>Baixe o projeto clicando em <strong>Extensão Chrome</strong> ou <strong>PWA Instalável</strong>.</li>
       <li>Extraia os arquivos em uma pasta no seu computador.</li>
       <li>No Chrome, acesse <code>chrome://extensions/</code>.</li>
       <li>Ative o <strong>Modo do desenvolvedor</strong> no canto superior direito.</li>
