@@ -36,7 +36,7 @@
 
  *Baixe o código*
 
-*Clone este repositório: git clone https://github.com/[SEU-USUARIO]/[SEU-REPOSITORIO].git*
+*Clone este repositório: git clone https://github.com/HereTwo/bootcamp2-chrome-ext--HereTwo-.*
 
 *Ou baixe o arquivo .zip pela página de Releases.*
 
