@@ -4,7 +4,7 @@
 
 # 📖 Sobre o Projeto
 
-*Ja aconteceu de anotar algo no caderno ou no bloco de notas e simplesmente esqueceu em qual pagina anotou ou salvou o arquivo? Bom seus problemas acabaram. O Note Saver estar aqui para isso.
+*Ja aconteceu de anotar algo no caderno ou no bloco de notas e simplesmente esqueceu em qual pagina anotou ou salvou o arquivo? Bom seus problemas acabaram. O Note Saver estar aqui para isso funciona de uma forma bem simples e intuitiva.*
 
 *Sendo feito seguindo as diretrizes do google extensões , utilizando o Minifest V3*
 
@@ -24,7 +24,7 @@
 
 # ⚙️ Funcionalidades
 
-*Poder salvar suas anotações a qualquer momento sem precisar abrir nenhum aplicativo externo.*
+*Poder salvar suas anotações a qualquer momento sem precisar abrir nenhum aplicativo exteerno.*
 
 *Interface: Um Icone discreto fica visível no canto da tela, sem atrapalhar a navegação.*
 
@@ -36,7 +36,7 @@
 
  *Baixe o código*
 
-*Clone este repositório: git clone https://github.com/HereTwo/bootcamp2-chrome-ext--HereTwo-.*
+*Clone este repositório: git clone https://github.com/[SEU-USUARIO]/[SEU-REPOSITORIO].git*
 
 *Ou baixe o arquivo .zip pela página de Releases.*
 

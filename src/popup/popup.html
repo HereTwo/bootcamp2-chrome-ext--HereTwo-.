@@ -1,21 +1,26 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Note Saver</title>
+  <link rel="stylesheet" href="../styles/global.css">
   <link rel="stylesheet" href="popup.css">
 </head>
 <body>
-  <h1>Note Saver</h1>
-  <textarea id="note" placeholder="Escreva sua nota..."></textarea>
-  <div>
-    <button id="saveNote">Salvar Nota</button>
-    <button id="clearNote">Limpar Nota</button>
-    <button id="showNotes">Minhas Notas</button>
-  </div>
-  <div id="notesContainer" style="display:none; margin-top:10px;">
-    <h3>Notas salvas</h3>
-    <ul id="noteList"></ul>
+  <div class="popup">
+    <h2>Note Saver</h2>
+    <textarea id="note" placeholder="Escreva sua nota aqui..." rows="6"></textarea>
+    <div class="controls">
+      <button id="saveNote" class="btn">Salvar</button>
+      <button id="clearNote" class="btn outline">Limpar</button>
+      <button id="showNotes" class="btn">Mostrar notas</button>
+    </div>
+    <div id="status" class="status" style="opacity:0;"></div>
+    <div id="notesContainer" class="notes-container" style="display:none;">
+      <ul id="noteList" class="note-list"></ul>
+    </div>
+    <footer><small>Note Saver — extensão MV3</small></footer>
   </div>
   <script src="popup.js"></script>
 </body>

@@ -1,0 +1,13 @@
+# docker-compose.yml
+version: "3.8"
+services:
+  e2e:
+    build: .
+    image: note-saver-ext-e2e:latest
+    environment:
+      - CI=true
+    volumes:
+      - ./:/app
+    working_dir: /app
+    command: ["npm", "run", "test:e2e"]
+    shm_size: 2gb
